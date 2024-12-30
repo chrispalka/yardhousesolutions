@@ -10,7 +10,9 @@ export function App() {
   return (
     <>
       <Nav />
-      <div>hi</div>
+      <div style={'color: red'} id={styles.content}>
+        hi
+      </div>
     </>
   );
 }

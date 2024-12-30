@@ -31,20 +31,19 @@ export function Nav() {
       <div className={styles.hamburgerContainer} onClick={toggleShowNav}>
         <Hamburger isOpen={navActive} onClick={toggleShowNav} />
       </div>
+      <div className={styles.navContainer}>YardHouse</div>
       <div
         className={
           navActive
-            ? [styles.navActive, styles.navContainer].join(' ')
-            : styles.navContainer
+            ? [styles.navActive, styles.navItemsContainer].join(' ')
+            : styles.navItemsContainer
         }
       >
-        <div className={styles.navItemsContainer}>
-          {links.map((link, index) => (
-            <a href={link.href} onClick={toggleShowNav} key={index}>
-              {link.name}
-            </a>
-          ))}
-        </div>
+        {links.map((link, index) => (
+          <a href={link.href} onClick={toggleShowNav} key={index}>
+            {link.name}
+          </a>
+        ))}
       </div>
     </>
   );
