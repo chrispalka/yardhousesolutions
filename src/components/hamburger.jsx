@@ -1,4 +1,4 @@
-import styles from './Hamburger.module.css';
+import styles from '../assets/styles/Hamburger.module.css';
 
 export function Hamburger({ isOpen }) {
   return (

@@ -1,10 +1,12 @@
 .navContainer {
-  position: sticky;
+  position: fixed;
   border: 1px solid yelow;
   display: flex;
+  flex-direction: column;
   top: 0;
-  width: 100vw;
-  height: 4rem;
+  width: 100%;
+  height: 100vh;
+  left: -100%;
   background-color: var(--secondary-color);
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
@@ -13,25 +15,25 @@
 }
 
 .navItemsContainer {
-  position: relative;
-  background-color: black;
+  /* background-color: #011627; */
   /* border: 2px solid yellow; */
-  height: 0px;
   width: 100%;
   z-index: 9997;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  transition: all ease 0.5s;
+  transition: all ease 0.4s;
 }
 .navActive {
-  transition: all ease 0.5s;
-  height: 250px;
+  transition: all ease 0.4s;
+  left: 0;
+  /* padding: 0 1rem; */
 }
 
 .navItemsContainer a {
   padding: 1.5rem;
+  /* border: 1px solid red; */
   text-decoration: none;
   color: #ffffff;
 }
@@ -42,4 +44,22 @@
   top: 0;
   right: 0;
   padding: 1rem;
+}
+
+.linkContainer {
+  padding: 1rem 0;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.linkContainer:hover {
+  background-color: gray;
+}
+
+.links {
+  font-weight: 700;
+}
+
+.links:hover {
+  background-color: red;
 }

@@ -1,5 +1,10 @@
-import { render } from 'preact'
-import './index.css'
-import { App } from './app.jsx'
+import { render } from 'preact';
+import './assets/styles/index.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/700.css';
+import '@fontsource/montserrat/400.css';
+import '@fontsource/montserrat/700.css';
+import '@fontsource/bebas-neue/400.css';
+import { App } from './components/app.jsx';
 
-render(<App />, document.getElementById('app'))
+render(<App />, document.getElementById('app'));
