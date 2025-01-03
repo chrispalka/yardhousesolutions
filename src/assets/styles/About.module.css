@@ -1,0 +1,27 @@
+.aboutContainer {
+  padding: 1rem;
+}
+
+.content {
+  font-style: italic;
+  font-family: 'Lora';
+  font-weight: 500;
+  color: #333;
+}
+
+.subContentContainer {
+  border-radius: 0.5em;
+  background-color: var(--secondary-color);
+}
+
+.subContentContainer p {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.subContent {
+  font-style: italic;
+  font-family: 'Lora';
+  font-weight: 500;
+  color: #fff;
+}

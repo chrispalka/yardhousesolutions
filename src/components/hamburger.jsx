@@ -1,6 +1,6 @@
 import styles from '../assets/styles/Hamburger.module.css';
 
-export function Hamburger({ isOpen }) {
+function Hamburger({ isOpen }) {
   return (
     <>
       <div className={styles.hamburger}>
@@ -29,3 +29,5 @@ export function Hamburger({ isOpen }) {
     </>
   );
 }
+
+export default Hamburger;

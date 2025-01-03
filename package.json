@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/bebas-neue": "^5.1.1",
+    "@fontsource/lora": "^5.1.1",
     "@fontsource/merriweather": "^5.1.1",
     "@fontsource/montserrat": "^5.1.1",
     "@fontsource/roboto": "^5.1.1",

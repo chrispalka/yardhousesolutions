@@ -2,7 +2,6 @@
   position: fixed;
   border: 1px solid yelow;
   display: flex;
-  flex-direction: column;
   top: 0;
   width: 100%;
   height: 100vh;
@@ -12,6 +11,13 @@
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   z-index: 9998;
+}
+
+.logo {
+  object-fit: cover;
+  /* height: 500px; */
+  width: 100%;
+  display: block;
 }
 
 .navItemsContainer {
@@ -53,13 +59,9 @@
 }
 
 .linkContainer:hover {
-  background-color: gray;
+  background-color: rgb(181, 179, 179);
 }
 
 .links {
   font-weight: 700;
-}
-
-.links:hover {
-  background-color: red;
 }

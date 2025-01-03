@@ -9,7 +9,7 @@ function Hero() {
           <h2>YARD HOUSE</h2>
         </div>
         <div>
-          <h2>TRANSPORTATION</h2>
+          <h2>SOLUTIONS</h2>
         </div>
       </div>
       <div className={styles.heroSubTextContainer}>
