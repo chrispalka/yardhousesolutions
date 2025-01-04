@@ -1,7 +1,7 @@
 /* Base section styles */
 .section {
   width: 100vw; /* Full viewport width */
-  padding: 50px 0; /* Vertical padding */
+  /* padding: 50px 0; Vertical padding */
   display: flex;
   justify-content: center; /* Center content horizontally */
   align-items: center; /* Center content vertically if needed */

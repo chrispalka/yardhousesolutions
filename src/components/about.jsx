@@ -17,6 +17,12 @@ function About() {
           <p className={styles.subContent}>Monday - Friday</p>
         </div>
         <div>
+          <p className={styles.subContent}>6AM - 7PM</p>
+        </div>
+        <div>
+          <p className={styles.subContent}>Weekends</p>
+        </div>
+        <div>
           <p className={styles.subContent}>7AM - 5PM</p>
         </div>
       </div>

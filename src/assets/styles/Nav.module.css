@@ -21,8 +21,7 @@
 }
 
 .navItemsContainer {
-  /* background-color: #011627; */
-  /* border: 2px solid yellow; */
+  line-height: normal;
   width: 100%;
   z-index: 9997;
   display: flex;
@@ -53,12 +52,17 @@
 }
 
 .linkContainer {
+  width: 100%;
+  padding: 1rem;
+}
+
+.linkWrapper {
   padding: 1rem 0;
   /* border: 1px solid red; */
   width: 100%;
 }
 
-.linkContainer:hover {
+.linkWrapper:hover {
   background-color: rgb(181, 179, 179);
 }
 

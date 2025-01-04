@@ -8,6 +8,7 @@ import SeniorImg from '../assets/senior_service.jpg';
 function Services() {
   return (
     <div className={styles.servicesContainer}>
+      <h1>SERVICES</h1>
       <Card
         title='Wheelchair'
         content='Safe and reliable transportation for wheelchair-bound passengers, ensuring comfort and ease of access.'

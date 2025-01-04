@@ -50,18 +50,20 @@ function Nav({ scrollDirection, top }) {
       >
         <div className={styles.navItemsContainer}>
           <img src={logo} className={styles.logo} />
-          {items.map((item, index) => (
-            <div className={styles.linkContainer}>
-              <a
-                href={item.href}
-                onClick={toggleShowNav}
-                key={index}
-                className={styles.links}
-              >
-                {item.name}
-              </a>
-            </div>
-          ))}
+          <div className={styles.linkContainer}>
+            {items.map((item, index) => (
+              <div className={styles.linkWrapper}>
+                <a
+                  href={item.href}
+                  onClick={toggleShowNav}
+                  key={index}
+                  className={styles.links}
+                >
+                  {item.name}
+                </a>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>

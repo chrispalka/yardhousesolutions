@@ -16,6 +16,23 @@
   line-height: normal;
 }
 
+.telephoneContainer {
+  background-color: #333;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 43%;
+  z-index: 9997;
+  font-size: 1.5em;
+}
+
+.telephoneContainer a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+}
+
 .heroSubTextContainer {
   position: absolute;
   display: flex;
