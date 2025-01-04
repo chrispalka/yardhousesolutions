@@ -1,5 +1,6 @@
 import Nav from '../components/nav';
 import Hamburger from '../components/hamburger';
+import Card from '../components/card';
 import Hero from '../components/hero';
 import About from '../components/about';
 import Services from '../components/services';
@@ -10,12 +11,13 @@ import useScroll from '../hooks/useScroll';
 
 export {
   Nav,
+  Hamburger,
+  Card,
   Hero,
   About,
   Services,
   Contact,
   Footer,
-  Hamburger,
   useScrollLock,
   useScroll,
 };

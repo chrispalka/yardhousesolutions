@@ -11,8 +11,8 @@ function About() {
         trained professionals, we're here to support your healthcare journey.
       </h2>
       <div className={styles.subContentContainer}>
-        <h2 className={styles.subContent}>Serving the Greater Atlanta area</h2>
-        <h2 className={styles.subContent}>Hours of Operation</h2>
+        <p className={styles.subContent}>Serving the Greater Atlanta area</p>
+        <p className={styles.subContent}>Hours of Operation</p>
         <div>
           <p className={styles.subContent}>Monday - Friday</p>
         </div>
