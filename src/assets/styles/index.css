@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
+  /* color-scheme: light dark; */
   color: rgba(255, 255, 255, 0.87);
   background-color: #e8eef2;
   --secondary-color: #2374ab;
@@ -28,6 +28,12 @@ html,
 body {
   overflow-x: hidden;
 } */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 a {
   font-weight: 500;

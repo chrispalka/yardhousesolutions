@@ -21,7 +21,9 @@ function Hero() {
         <img src={HeroImg} className={styles.heroImage} alt='' />
       </div>
       <div className={styles.telephoneContainer}>
-        <h2>CALL NOW</h2>
+        <h2>
+          <a href='tel:+1 (404) 772-5167'>CALL NOW</a>
+        </h2>
         <h2>
           <a href='tel:+1 (404) 772-5167'>+1 (404) 772-5167</a>
         </h2>
