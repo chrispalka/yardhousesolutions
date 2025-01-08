@@ -22,7 +22,6 @@ function Form({ isPageLoading }) {
   } = useForm();
 
   const onSubmit = (data) => {
-    console.log('api: ', api);
     setIsLoading(true);
     axios
       .post(`${api}/formSubmit`, {
