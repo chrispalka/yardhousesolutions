@@ -14,9 +14,10 @@
 }
 
 .logo {
-  object-fit: cover;
-  /* height: 500px; */
+  object-fit: contain;
   width: 100%;
+  max-width: 50%;
+  height: auto; /* Let the height adjust based on aspect ratio */
   display: block;
 }
 

@@ -1,3 +1,12 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faEnvelope,
+  faCalendarDay,
+  faCalendarWeek,
+  faClock,
+  faMarker,
+  faMapMarker,
+} from '@fortawesome/free-solid-svg-icons';
 import styles from '../assets/styles/About.module.css';
 
 function About() {
@@ -14,19 +23,35 @@ function About() {
         </span>
       </div>
       <div className={styles.subContentContainer}>
-        <p className={styles.subContent}>Serving the Greater Atlanta area</p>
-        <p className={styles.subContent}>Hours of Operation</p>
+        <p className={styles.subContent}>
+          <FontAwesomeIcon
+            className={styles.icon}
+            icon={faMapMarker}
+            size='lg'
+          />
+          Serving the Greater Atlanta area
+        </p>
+        <p className={styles.subContent}>
+          <FontAwesomeIcon className={styles.icon} icon={faClock} size='lg' />{' '}
+          Hours of Operation
+        </p>
         <div>
-          <p className={styles.subContent}>Monday - Friday</p>
-        </div>
-        <div>
-          <p className={styles.subContent}>5AM - 7PM</p>
-        </div>
-        <div>
-          <p className={styles.subContent}>Weekends</p>
-        </div>
-        <div>
-          <p className={styles.subContent}>7AM - 5PM</p>
+          <p className={styles.subContent}>
+            <FontAwesomeIcon
+              className={styles.icon}
+              icon={faCalendarDay}
+              size='lg'
+            />{' '}
+            Monday - Friday: 5AM - 7PM
+          </p>
+          <p className={styles.subContent}>
+            <FontAwesomeIcon
+              className={styles.icon}
+              icon={faCalendarWeek}
+              size='lg'
+            />{' '}
+            Weekends: 7AM - 5PM
+          </p>
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'preact/hooks';
 import { Hamburger, useScrollLock } from '../layout/index';
-import logo from '../assets/logo2.png';
+import logo from '../assets/logo.png';
 
 import styles from '../assets/styles/Nav.module.css';
 
@@ -49,7 +49,11 @@ function Nav({ scrollDirection, top }) {
         }
       >
         <div className={styles.navItemsContainer}>
-          <img src={logo} className={styles.logo} />
+          <img
+            src={logo}
+            alt='yardhouse solutions logo non medical transport van'
+            className={styles.logo}
+          />
           <div className={styles.linkContainer}>
             {items.map((item, index) => (
               <div className={styles.linkWrapper}>

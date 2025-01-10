@@ -2,28 +2,78 @@
   padding: 1rem;
 }
 
+/* .aboutContainer {
+  background-color: #f9f9f9;
+  border-radius: 1em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  max-width: 600px;
+  margin: 2rem auto;
+} */
+
 .content {
-  /* font-style: italic; */
+  font-size: 1.3em;
+  line-height: 1.6;
+  margin: 1rem 0;
+  font-weight: 400;
+  color: #444;
+  text-align: center;
+}
+/* .content {
   font-size: 1.2em;
   margin: 1rem 0;
   font-weight: 400;
   color: #333;
+} */
+
+.icon {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.subContentContainer {
+  margin: 2rem 0;
+  border-radius: 1em;
+  padding: 1.5rem;
+  background-color: #0077b6;
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
 }
 
-.subContentContainer {
+.subContent {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600; /* Make the text bold */
+  font-size: 1.2em;
+  margin: 0.5rem 0;
+  color: #e3f2fd; /* Lighter shade for slight differentiation */
+}
+
+.subContentContainer p {
+  text-align: center; /* Center align the details */
+}
+
+.subContentContainer div {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Subtle divider */
+}
+
+.subContentContainer div:last-child {
+  border-bottom: none; /* Remove divider on the last item */
+}
+
+/* .subContentContainer {
   margin: 2rem 0 1rem 0;
   border-radius: 0.5em;
   padding: 1rem;
   background-color: var(--secondary-color);
-}
+} */
 
-.subContentContainer p {
+/* .subContentContainer p {
   font-size: 1.5em;
   margin: 1rem 0;
 }
 
 .subContent {
-  /* font-style: italic; */
   font-weight: 500;
   color: #fff;
-}
+} */
