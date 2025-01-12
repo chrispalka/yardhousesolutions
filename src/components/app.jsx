@@ -20,7 +20,9 @@ export function App() {
       <Nav scrollDirection={scrollDirection} top={topOfPage} />
       <Hero />
       <div id='about' className={[styles.section, styles.section1].join(' ')}>
-        <About />
+        <div className={styles.content}>
+          <About />
+        </div>
       </div>
       <div
         id='services'

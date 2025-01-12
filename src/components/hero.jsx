@@ -4,12 +4,14 @@ import styles from '../assets/styles/Hero.module.css';
 function Hero() {
   return (
     <>
-      <div className={styles.heroTitleContainer}>
-        <div>
-          <h2>YARD HOUSE</h2>
-        </div>
-        <div>
-          <h2>SOLUTIONS</h2>
+      <div className={styles.content}>
+        <div className={styles.heroTitleContainer}>
+          <div>
+            <h2>YARD HOUSE</h2>
+          </div>
+          <div>
+            <h2>SOLUTIONS</h2>
+          </div>
         </div>
       </div>
 

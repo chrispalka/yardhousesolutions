@@ -23,11 +23,13 @@
   justify-content: center;
   height: 100%;
 }
-/*
+
 html,
 body {
-  overflow-x: hidden;
-} */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
 
 *,
 *::before,

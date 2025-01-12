@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 1.6%;
+  padding-top: 1rem;
   z-index: 9997;
   width: 100%;
   flex-direction: column;
@@ -14,6 +14,14 @@
   margin: 0;
   font-size: 2em;
   line-height: normal;
+}
+
+.content {
+  position: relative;
+  max-width: 1280px; /* Constrain content width */
+  width: 100%; /* Ensure content spans full width within constraints */
+  margin: 0 auto; /* Center the container */
+  text-align: center; /* Optional for centering text */
 }
 
 .telephoneContainer {
@@ -99,4 +107,35 @@
     rgba(0, 0, 0, 0.3) 100%
   ); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+@media only screen and (min-width: 37.5rem) and (max-width: 64rem) and (orientation: portrait) {
+  .formContainer {
+    width: 50%;
+  }
+  .content {
+    position: relative;
+  }
+}
+
+/* LAPTOP DESKTOP */
+
+@media (min-width: 64.0625rem) and (max-width: 80rem) {
+  .heroImage {
+    height: 41.25rem;
+  }
+  .content {
+    position: relative;
+  }
+}
+
+/* LARGE SCREENS */
+
+@media (min-width: 80.0625rem) {
+  .heroImage {
+    height: 41.25rem;
+  }
+  .content {
+    position: relative;
+  }
 }
