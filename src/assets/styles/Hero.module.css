@@ -1,13 +1,13 @@
+.heroContainer {
+  position: relative;
+  height: 100%;
+  /* border: 2px solid purple; */
+}
+
 .heroTitleContainer {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 1rem;
   z-index: 9997;
   width: 100%;
-  flex-direction: column;
-  /* border: 1px solid red; */
 }
 
 .heroTitleContainer h2 {
@@ -17,9 +17,15 @@
 }
 
 .content {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* border: 3px solid red; */
+  position: absolute;
   max-width: 1280px; /* Constrain content width */
   width: 100%; /* Ensure content spans full width within constraints */
+  height: 100%;
   margin: 0 auto; /* Center the container */
   text-align: center; /* Optional for centering text */
 }
@@ -42,10 +48,6 @@
 }
 
 .heroSubTextContainer {
-  position: absolute;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   top: 25%;
   z-index: 9997;
   font-size: 2.5em;
@@ -61,6 +63,7 @@
 }
 
 .gradient {
+  width: 100%;
   position: relative;
   display: inline-block;
 }
@@ -113,9 +116,9 @@
   .formContainer {
     width: 50%;
   }
-  .content {
+  /* .content {
     position: relative;
-  }
+  } */
 }
 
 /* LAPTOP DESKTOP */
@@ -124,9 +127,9 @@
   .heroImage {
     height: 41.25rem;
   }
-  .content {
+  /* .content {
     position: relative;
-  }
+  } */
 }
 
 /* LARGE SCREENS */
@@ -135,7 +138,7 @@
   .heroImage {
     height: 41.25rem;
   }
-  .content {
+  /* .content {
     position: relative;
-  }
+  } */
 }
