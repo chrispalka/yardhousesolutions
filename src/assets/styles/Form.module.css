@@ -17,7 +17,7 @@
 
 .formContainer {
   padding: 1rem;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .formSubContainer {
@@ -167,17 +167,11 @@
 
 /* Styles for tablets in portrait */
 @media only screen and (min-width: 37.5rem) and (max-width: 64rem) and (orientation: portrait) {
-  .formContainer {
-    width: 50%;
-  }
 }
 
 /* LAPTOP DESKTOP */
 
 @media (min-width: 64.0625rem) and (max-width: 80rem) {
-  .formContainer {
-    width: 33%;
-  }
 }
 
 /* LARGE SCREENS */

@@ -12,7 +12,6 @@ import {
 import styles from '../assets/styles/App.module.css';
 
 export function App() {
-  const [count, setCount] = useState(0);
   const { scrollDirection, topOfPage } = useScroll();
 
   return (

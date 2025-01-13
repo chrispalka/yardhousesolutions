@@ -24,6 +24,11 @@
   height: 100%;
 }
 
+html {
+  height: -webkit-fill-available;
+  scroll-behavior: smooth;
+}
+
 html,
 body {
   margin: 0; /* Remove default margins */

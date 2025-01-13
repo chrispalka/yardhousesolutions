@@ -5,10 +5,10 @@ const useScroll = () => {
   const [topOfPage, setTopOfPage] = useState(true);
 
   useEffect(() => {
-    let lastScrollY = window.pageYOffset;
+    let lastScrollY = window.scrollY;
 
     const updateScrollDirection = () => {
-      const scrollY = window.pageYOffset;
+      const scrollY = window.scrollY;
       const direction = scrollY > lastScrollY ? false : true;
       if (
         direction !== scrollDirection &&
@@ -16,7 +16,7 @@ const useScroll = () => {
       ) {
         setScrollDirection(direction);
       }
-      if (window.pageYOffset === 0) {
+      if (window.scrollY === 0) {
         setTopOfPage(true);
       } else {
         setTopOfPage(false);

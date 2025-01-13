@@ -19,7 +19,7 @@
 .content {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   /* border: 3px solid red; */
   position: absolute;
@@ -34,6 +34,7 @@
   background-color: #333;
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 43%;
@@ -65,7 +66,7 @@
 .gradient {
   width: 100%;
   position: relative;
-  display: inline-block;
+  /* display: inline-block; */
 }
 .gradient:after {
   content: '';
@@ -112,33 +113,47 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 }
 
+/* TABLET */
+
 @media only screen and (min-width: 37.5rem) and (max-width: 64rem) and (orientation: portrait) {
   .formContainer {
     width: 50%;
   }
-  /* .content {
-    position: relative;
-  } */
+  .content {
+    padding: 2rem 0;
+  }
 }
 
 /* LAPTOP DESKTOP */
 
 @media (min-width: 64.0625rem) and (max-width: 80rem) {
+  .heroContainer {
+    padding-top: 4rem;
+  }
   .heroImage {
     height: 41.25rem;
   }
-  /* .content {
-    position: relative;
-  } */
+  .content {
+    padding: 2rem 0;
+  }
+  .heroTitleContainer {
+    padding-top: 0;
+  }
 }
 
 /* LARGE SCREENS */
 
 @media (min-width: 80.0625rem) {
+  .heroContainer {
+    padding-top: 4rem;
+  }
   .heroImage {
     height: 41.25rem;
   }
-  /* .content {
-    position: relative;
-  } */
+  .content {
+    padding: 2rem 0;
+  }
+  .heroTitleContainer {
+    padding-top: 0;
+  }
 }
