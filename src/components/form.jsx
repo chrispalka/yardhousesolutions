@@ -70,31 +70,37 @@ function Form({ isPageLoading }) {
               >
                 <div className={styles.inputContainer}>
                   <input
-                    className={styles.input}
+                    className={`${styles.input} ${
+                      errors.firstName ? styles.inputError : ''
+                    }`}
                     type='text'
                     {...register('firstName', {
                       required: 'This field is required!',
                     })}
-                    placeholder='First Name'
+                    placeholder={errors.firstName?.message || 'First Name'}
                     disabled={isLoading}
                   />
-                  <p className={styles.error}>{errors.firstName?.message}</p>
+                  <p></p>
                 </div>
                 <div className={styles.inputContainer}>
                   <input
-                    className={styles.input}
+                    className={`${styles.input} ${
+                      errors.lastName ? styles.inputError : ''
+                    }`}
                     type='text'
                     {...register('lastName', {
                       required: 'This field is required!',
                     })}
-                    placeholder='Last Name'
+                    placeholder={errors.lastName?.message || 'Last Name'}
                     disabled={isLoading}
                   />
-                  <p className={styles.error}>{errors.lastName?.message}</p>
+                  <p></p>
                 </div>
                 <div className={styles.inputContainer}>
                   <input
-                    className={styles.input}
+                    className={`${styles.input} ${
+                      errors.email ? styles.inputError : ''
+                    }`}
                     {...register('email', {
                       required: 'This field is required!',
                       pattern: {
@@ -103,10 +109,10 @@ function Form({ isPageLoading }) {
                       },
                     })}
                     type='email'
-                    placeholder='Email'
+                    placeholder={errors.email?.message || 'Email'}
                     disabled={isLoading}
                   />
-                  <p className={styles.error}>{errors.email?.message}</p>
+                  <p></p>
                 </div>
                 <div
                   className={[styles.inputContainer, styles.telContainer].join(

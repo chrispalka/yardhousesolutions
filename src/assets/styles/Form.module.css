@@ -48,6 +48,15 @@
   border: 0.0625rem solid rgb(162, 160, 160);
 }
 
+.inputError {
+  border-color: red;
+  color: red;
+}
+
+.inputError::placeholder {
+  color: red; /* Placeholder text color */
+}
+
 .inputContainer {
   width: 100%;
   padding: 0 0.5rem;
@@ -55,13 +64,13 @@
 
 .inputContainer input:focus {
   outline: none !important;
-  border: 0.0625rem solid black;
+  border: 0.0625rem solid white;
   box-shadow: 0 0 0.3125rem #719ece;
 }
 
 .inputContainer textarea:focus {
   outline: none !important;
-  border: 0.0625rem solid black;
+  border: 0.0625rem solid white;
   box-shadow: 0 0 0.3125rem #719ece;
 }
 
@@ -147,20 +156,20 @@
   color: #ffffff;
   display: flex;
   justify-content: center;
-  -webkit-transition: all ease 1s;
-  -moz-transition: all ease 1s;
-  transition: all ease 1s;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 
 .button:hover {
-  border: 0.0625rem solid rgb(162, 160, 160);
-  background-color: #ffffff;
-  color: black;
+  /* border: 0.0625rem solid rgb(162, 160, 160); */
+  background-color: #333;
+  color: #fff;
 }
 
 .error {
   font-size: 0.7em;
-  color: red;
+  color: #ece3e3;
   margin: 0;
   height: 1.5rem;
 }
