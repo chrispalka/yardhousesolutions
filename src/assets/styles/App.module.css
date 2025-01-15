@@ -23,6 +23,11 @@
   background-color: #e0e0e0; /* Another light gray */
 }
 
+.sectionfooter {
+  background-color: #2374ab;
+  color: #fff;
+}
+
 /* Content container */
 .content {
   max-width: 1280px; /* Constrain content width */

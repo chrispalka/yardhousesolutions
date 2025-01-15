@@ -4,7 +4,7 @@ import styles from '../assets/styles/Hero.module.css';
 function Hero() {
   return (
     <>
-      <div className={styles.heroContainer}>
+      <div id='home' className={styles.heroContainer}>
         <div className={styles.content}>
           <div className={styles.heroTitleContainer}>
             <div>

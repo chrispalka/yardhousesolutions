@@ -1,4 +1,3 @@
-import { useState } from 'preact/hooks';
 import {
   Nav,
   Hero,
@@ -32,7 +31,7 @@ export function App() {
       <div id='contact' className={[styles.section, styles.section3].join(' ')}>
         <Contact />
       </div>
-      <div>
+      <div className={[styles.section, styles.sectionfooter].join(' ')}>
         <Footer />
       </div>
     </>
