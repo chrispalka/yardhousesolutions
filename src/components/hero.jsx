@@ -1,4 +1,4 @@
-import HeroImg from '../assets/nursehelpelderly.jpeg';
+import HeroImg from '../assets/nursehelpelderly.webp';
 import styles from '../assets/styles/Hero.module.css';
 
 function Hero() {

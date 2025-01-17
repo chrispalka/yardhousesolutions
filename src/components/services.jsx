@@ -1,9 +1,9 @@
 import styles from '../assets/styles/Services.module.css';
 import { Card } from '../layout/index';
-import WheelchairImg from '../assets/wheelchair_transport.jpg';
-import SpecialNeedsImg from '../assets/special_needs_service.jpg';
-import StretcherImg from '../assets/stretcher_service.jpg';
-import SeniorImg from '../assets/senior_service.jpg';
+import WheelchairImg from '../assets/wheelchair_transport.webp';
+import SpecialNeedsImg from '../assets/special_needs_service.webp';
+import StretcherImg from '../assets/stretcher_service.webp';
+import SeniorImg from '../assets/senior_service.webp';
 
 function Services() {
   return (
