@@ -33,7 +33,7 @@ function Hero() {
             sizes='(max-width: 600px) 100vw,
              (max-width: 1200px) 50vw,
              33vw'
-            alt='Nurse helping an elderly person'
+            alt='Nurse helping an elderly person up from wheelchair in senior living facility hospital appointment'
           />
         </div>
       </div>
