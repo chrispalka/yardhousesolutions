@@ -31,14 +31,17 @@ function Nav({ scrollDirection, top }) {
     };
   }, []);
 
+  useEffect(() => {
+    if (navActive) {
+      lockScroll();
+    } else {
+      unlockScroll();
+    }
+  }, [navActive]);
+
   const toggleShowNav = () => {
     if (isMobile) {
       setNavActive(!navActive);
-      if (navActive) {
-        unlockScroll();
-      } else {
-        lockScroll();
-      }
     }
   };
 
