@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'preact/hooks';
 import { Hamburger, useScrollLock } from '../layout/index';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.webp';
 
 import styles from '../assets/styles/Nav.module.css';
 
