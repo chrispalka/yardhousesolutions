@@ -89,7 +89,9 @@ function Footer() {
       {/* Footer Bottom */}
       <div className={styles.footerBottom}>
         <p>© 2025 Yard House Transportation. All Rights Reserved.</p>
-        <p>"Your Health, Our Priority on the Road."</p>
+        <p className={styles.slogan}>
+          "Your Health, Our Priority on the Road."
+        </p>
       </div>
     </div>
   );
